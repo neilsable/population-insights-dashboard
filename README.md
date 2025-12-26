@@ -106,20 +106,6 @@ The layout is focused on clarity and quick interpretation for business or policy
 
 > Note: Exact formulas and structure can be explored directly in the Excel file.
 
----
-
-## File structure
-
-population-insights-dashboard/
-│
-├── Population Analysis.xlsx      # Main Excel model and dashboard
-└── screenshots/
-    ├── dashboard-overview.png    # Main dashboard view
-    ├── raw-data.png              # Raw data sheet preview
-    ├── sector-income.png         # Income by field of work
-    └── territory-income.png      # Income by county/territory
-
-
 ## How to use this project
 Download the Excel file
 
@@ -159,7 +145,7 @@ Download the Excel file
 - Deploy a web‑based demo using Python or Streamlit for interactive exploration.
 
 ## About me:
-- ** I created this project to demonstrate end‑to‑end analytics capability:
+- **I created this project to demonstrate end‑to‑end analytics capability**:
 
 - Designing and modelling a dataset from scratch
 - Translating real‑world questions into metrics and KPIs
