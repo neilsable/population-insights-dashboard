@@ -1,155 +1,190 @@
-# population-insights-dashboard
-Synthetic UK population &amp; financial analytics dataset with an Excel dashboard built from scratch.
+<div align="center">
 
-# Population & Financial Insights Dashboard (Excel)
+# 📊 Population & Financial Insights Dashboard  
+### Synthetic UK demographics & financial analytics — built end-to-end in Excel
 
-## Overview
+<p align="center">
+  <img src="https://img.shields.io/badge/Excel-Dashboard-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Data-Synthetic-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Analytics-End--to--End-orange?style=for-the-badge" />
+</p>
 
-This project is a fully self‑designed analytics solution built entirely from scratch — including all **raw data**, **calculations**, and **dashboard design**. I manually created a synthetic dataset representing:
-
-- Demographics (gender, age, education, kids)
-- Income and debt levels
-- Net worth and investments
-- Car and house asset values
-- Professions and sectors (Health, Construction, Technology, Agriculture, Social Service, Education)
-- UK counties/territories
-
-The goal of this project is to demonstrate my ability to:
-
-- Design realistic, structured datasets from zero
-- Define meaningful KPIs and analytical questions
-- Build an end‑to‑end Excel dashboard for insights
-- Present complex information in a clear, stakeholder‑friendly way
+</div>
 
 ---
 
-## Key questions this dashboard answers
+## ✨ Overview
 
-- **How many men vs women are in the population?**
-- **What is the average age and income across the dataset?**
-- **How does income differ by sector (Health, Construction, Technology, etc.)?**
-- **How does average income vary by county/territory?**
-- **What is the average value of a car per person?**
-- **What percentage of people have debts greater than their annual income?**
-- **What is the average age of people whose net worth is higher than their annual income?**
-- **How many people have debts greater than a given threshold (X)?**
-- **How many people have less than a certain percentage of their mortgage left to pay?**
+This project is a **fully self-designed analytics solution**, built entirely from scratch using **Microsoft Excel**.
 
-These questions mirror real‑world use cases in financial analysis, public policy, risk assessment, and market research.
+I manually created a **realistic synthetic UK population dataset** and transformed it into a **stakeholder-ready dashboard** answering real-world questions around:
+- demographics
+- income and debt
+- assets and net worth
+- regional and sectoral differences
+
+No pre-made datasets.  
+No templates.  
+Just **data design → analysis → insight → presentation**.
 
 ---
 
-## Skills demonstrated
+## 🎯 Why this project matters
 
-### 1. Data creation and modelling
+In real analytics roles, the hardest part is not building charts — it’s:
+> **structuring messy reality into decision-ready insight.**
 
-- **Manual dataset design:** I created all the data myself, simulating realistic distributions for age, income, assets, counties, professions, and education.
-- **Structured modelling:** Separated and organised data into logical dimensions:
-  - Counties / territories
+This project demonstrates:
+- how to **design data from zero**
+- how to **ask the right questions**
+- how to **translate raw numbers into insight**
+- how to **present findings clearly to non-technical stakeholders**
+
+---
+
+## 🧠 What the dashboard answers
+
+The dashboard is designed around **practical business and policy questions**, including:
+
+- 👥 Gender distribution (men vs women)
+- 🎂 Average age across the population
+- 💷 Average income (overall, by sector, by county)
+- 🚗 Average car value per person
+- 🧾 Debt risk indicators:
+  - % of people with **debts greater than annual income**
+  - Count of people with **debts above a configurable threshold**
+  - Count of people with **less than X% of mortgage left**
+- 💰 Net worth insights:
+  - Average age of people whose **net worth exceeds income**
+  - Asset value vs debt exposure
+- 🗺️ Regional insights:
+  - Income distribution by UK county / territory
+- 🏭 Sector insights:
+  - Income differences across professions  
+    (Health, Construction, Technology, Agriculture, Education, Social Services)
+
+These questions mirror **real use cases** in:
+- financial analysis
+- public policy
+- risk assessment
+- market and population research
+
+---
+
+## 🧱 Data design & modelling
+
+### Synthetic dataset (created manually)
+
+The dataset simulates realistic distributions for:
+
+- **Demographics**
+  - Gender
+  - Age
+  - Education
+  - Children
+- **Financials**
+  - Income
+  - Debts
+  - Assets
+  - Net worth
+- **Assets**
+  - Car value
+  - House value
+  - Mortgage remaining
+- **Professional attributes**
   - Field of work / sector
-  - Demographics (gender, age, education, kids)
-  - Financials (income, debts, assets, net worth)
-- **Analysis‑ready structure:** Designed the layout so it can be easily used for pivot tables, charts, and KPI calculations.
+- **Geography**
+  - UK counties / territories
 
-### 2. Analytical thinking and KPI design
+The structure is **analysis-ready**, optimised for:
+- pivot tables
+- KPI calculations
+- segmentation
+- dashboard visuals
 
-- **Men vs Women:** Count of individuals by gender.
-- **Average Age & Income:** Overall and segmented.
-- **Average Car Value:** Per person and/or per household.
-- **Debt analysis:**
-  - Percentage of people with **debts greater than their annual income**
-  - Number of people with **debts greater than a configurable X value**
-  - Number of people with **less than X% of their mortgage left to pay**
-- **Net worth insights:**
-  - Average age of people whose **net worth exceeds their income**
-  - Value of debts vs value of assets
-- **Territory & sector analytics:**
-  - Average income per county
-  - Average income per sector/field of work
+---
 
-These KPIs are designed to tell a story about financial health, risk, and distribution across regions and professions.
+## 📐 Analytical thinking & KPIs
 
-### 3. Excel dashboard design
+Key metrics were deliberately chosen to **tell a story**, not just show numbers:
 
-- **Dedicated dashboard sheet** summarising:
-  - Number of men vs women
-  - Average age
-  - Number of people in each profession
-  - Average income
-  - Average car value
-  - Debt‑related metrics
-  - Average income per sector
-  - Average income per territory
-  - Net worth vs income insights
-- **Charts and visuals** to highlight:
+- Gender counts and proportions
+- Average age & income (overall and segmented)
+- Income by sector and territory
+- Debt-to-income risk metrics
+- Mortgage completion indicators
+- Net worth vs income relationships
+
+Each KPI answers a **specific stakeholder question**.
+
+---
+
+## 📊 Excel dashboard design
+
+The dashboard includes:
+- A **dedicated dashboard sheet**
+- Clearly separated:
+  - Raw data
+  - Calculations
+  - Visual outputs
+- Charts highlighting:
   - Sector distribution
-  - Territorial income differences
+  - Regional income variation
   - Debt and risk indicators
+- Clean formatting:
+  - Consistent currency & percentage formats
+  - Logical grouping
+  - Easy scanning for decision-makers
 
-The layout is focused on clarity and quick interpretation for business or policy stakeholders.
+The focus is **clarity, not decoration**.
 
-### 4. Excel / BI techniques used
+---
 
-- **Formulas** for:
-  - Averages (e.g. `AVERAGE`, `AVERAGEIF`, `AVERAGEIFS`)
-  - Counts and conditions (e.g. `COUNTIF`, `COUNTIFS`)
-  - Percentage calculations (debt vs income, mortgage left to pay)
-  - Net worth vs income comparisons
-- **Pivot tables** (where used) to aggregate:
+## 🛠️ Excel techniques used
+
+- **Formulas**
+  - `AVERAGE`, `AVERAGEIF`, `AVERAGEIFS`
+  - `COUNTIF`, `COUNTIFS`
+  - Percentage and ratio calculations
+- **Pivot tables**
   - Income by sector
   - Income by county
   - Gender distributions
-- **Formatting and layout**:
-  - Clear separation of raw data, calculations, and dashboard
-  - Consistent number formats (currency, percentages)
-  - Headings and grouping for readability
+- **Layout & modelling best practices**
+  - Separation of raw data vs calculations
+  - Scalable structure for future extensions
 
-> Note: Exact formulas and structure can be explored directly in the Excel file.
+> Exact formulas and structure can be explored directly in the Excel file.
 
-## How to use this project
-Download the Excel file
+---
 
-- Click on Population Analysis.xlsx in this repository
-- Click Download
-- Open in Excel
-- Use Microsoft Excel (desktop recommended for best performance)
-- Explore the dashboard
-- Go to the Dashboard sheet to see the key metrics and charts.
-- Use any slicers or filters (if present) to explore segments.
-- Explore the raw data
-- Open the Raw Data or equivalent data sheet.
+## 🖥️ How to use this project
 
-## Review fields such as:
+1. Download **Population Analysis.xlsx**
+2. Open in **Microsoft Excel (desktop recommended)**
+3. Navigate to the **Dashboard** sheet
+4. Explore:
+   - KPIs
+   - Charts
+   - Sector & territory insights
+5. Review raw data and calculations to understand the full model
 
-- County
-- Gender
-- Age
-- Education
-- Income
-- Debts
-- Assets
-- Field of work
-- Adapt or extend
+---
 
-## The dataset is ideal for practising:
+## 🚀 Extension ideas
 
-- New KPIs
-- Additional charts
-- Power Query / Power Pivot integration
-- Migration into tools like Power BI or SAP Analytics Cloud
-- Potential future enhancements
-- Build a Power BI or SAP Analytics Cloud version of this dashboard using the same dataset.
-- Add time‑based elements (e.g. yearly changes in income or debt).
-- Introduce scenarios (e.g. interest rate changes, economic shocks).
-- Add more demographic variables (marital status, employment status, etc.).
-- Deploy a web‑based demo using Python or Streamlit for interactive exploration.
+This dataset is ideal for:
+- Power BI or SAP Analytics Cloud migration
+- Power Query / Power Pivot enhancement
+- Time-series extensions (income or debt over years)
+- Scenario modelling (interest rate shocks, policy changes)
+- Web-based dashboards (Python / Streamlit)
 
-## About me:
-- **I created this project to demonstrate end‑to‑end analytics capability**:
+---
 
-- Designing and modelling a dataset from scratch
-- Translating real‑world questions into metrics and KPIs
-- Building a clear and insightful Excel dashboard
-- Thinking like a business stakeholder, not just a technical analyst
+<div align="center">
 
-If you’d like to discuss this project or similar work, feel free to connect with me.
+### Built by **Neil Sable**  
+_Data Modelling · Financial Analytics · Insight Design_
+
+</div>
