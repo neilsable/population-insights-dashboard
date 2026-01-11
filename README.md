@@ -170,6 +170,22 @@ The focus is **clarity, not decoration**.
 5. Review raw data and calculations to understand the full model
 
 ---
+## 📂 Project Files & Dataset Access
+
+All project files — including the **Excel dashboard**, **raw synthetic dataset**, and supporting materials — are available via Google Drive.
+
+<p align="center">
+  <a href="https://drive.google.com/drive/folders/1tJDYqOPn0ahCGSFiGlyVEBVcgKJpAmBd?usp=drive_link" target="_blank">
+    <img src="https://img.shields.io/badge/📁%20Open%20Project%20Files-Google%20Drive-blue?style=for-the-badge" />
+  </a>
+</p>
+
+### What you’ll find in the folder
+- 📊 **Population Analysis.xlsx** — main Excel dashboard  
+- 🧮 Raw synthetic population & financial data  
+- 📐 Supporting calculation sheets and structures  
+
+> **Recommended:** Use **Microsoft Excel (desktop)** for the best performance and full dashboard interactivity.
 
 ## 🚀 Extension ideas
 
